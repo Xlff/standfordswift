@@ -60,10 +60,9 @@
 		537B6C3A1E95ED9E0057F0F3 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				539A05591E978FF0000A9091 /* Faceit */,
-				537B6C3D1E95ED9E0057F0F3 /* ViewController.swift */,
 				537B6C3F1E95ED9E0057F0F3 /* Main.storyboard */,
-				537B6C4D1E9630A90057F0F3 /* CalculatorBrain.swift */,
+				539A05591E978FF0000A9091 /* Faceit */,
+				539A055E1E9793AC000A9091 /* Calculator */,
 				539A05581E978FD3000A9091 /* Supporting */,
 			);
 			path = Calculator;
@@ -87,6 +86,15 @@
 				539A055C1E97906D000A9091 /* FaceView.swift */,
 			);
 			name = Faceit;
+			sourceTree = "<group>";
+		};
+		539A055E1E9793AC000A9091 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				537B6C3D1E95ED9E0057F0F3 /* ViewController.swift */,
+				537B6C4D1E9630A90057F0F3 /* CalculatorBrain.swift */,
+			);
+			name = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
