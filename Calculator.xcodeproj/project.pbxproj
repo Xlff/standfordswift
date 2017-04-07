@@ -12,6 +12,9 @@
 		537B6C411E95ED9E0057F0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537B6C3F1E95ED9E0057F0F3 /* Main.storyboard */; };
 		537B6C431E95ED9E0057F0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537B6C421E95ED9E0057F0F3 /* Assets.xcassets */; };
 		537B6C461E95ED9E0057F0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537B6C441E95ED9E0057F0F3 /* LaunchScreen.storyboard */; };
+		537B6C4E1E9630A90057F0F3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537B6C4D1E9630A90057F0F3 /* CalculatorBrain.swift */; };
+		539A055B1E97900C000A9091 /* FaceitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539A055A1E97900C000A9091 /* FaceitViewController.swift */; };
+		539A055D1E97906D000A9091 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539A055C1E97906D000A9091 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		537B6C421E95ED9E0057F0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537B6C451E95ED9E0057F0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		537B6C471E95ED9E0057F0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537B6C4D1E9630A90057F0F3 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		539A055A1E97900C000A9091 /* FaceitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceitViewController.swift; sourceTree = "<group>"; };
+		539A055C1E97906D000A9091 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,33 @@
 		537B6C3A1E95ED9E0057F0F3 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				537B6C3B1E95ED9E0057F0F3 /* AppDelegate.swift */,
+				539A05591E978FF0000A9091 /* Faceit */,
 				537B6C3D1E95ED9E0057F0F3 /* ViewController.swift */,
 				537B6C3F1E95ED9E0057F0F3 /* Main.storyboard */,
+				537B6C4D1E9630A90057F0F3 /* CalculatorBrain.swift */,
+				539A05581E978FD3000A9091 /* Supporting */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		539A05581E978FD3000A9091 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				537B6C3B1E95ED9E0057F0F3 /* AppDelegate.swift */,
 				537B6C421E95ED9E0057F0F3 /* Assets.xcassets */,
 				537B6C441E95ED9E0057F0F3 /* LaunchScreen.storyboard */,
 				537B6C471E95ED9E0057F0F3 /* Info.plist */,
 			);
-			path = Calculator;
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		539A05591E978FF0000A9091 /* Faceit */ = {
+			isa = PBXGroup;
+			children = (
+				539A055A1E97900C000A9091 /* FaceitViewController.swift */,
+				539A055C1E97906D000A9091 /* FaceView.swift */,
+			);
+			name = Faceit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +121,7 @@
 				TargetAttributes = {
 					537B6C371E95ED9E0057F0F3 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DLAC8497MQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539A055B1E97900C000A9091 /* FaceitViewController.swift in Sources */,
+				537B6C4E1E9630A90057F0F3 /* CalculatorBrain.swift in Sources */,
 				537B6C3E1E95ED9E0057F0F3 /* ViewController.swift in Sources */,
 				537B6C3C1E95ED9E0057F0F3 /* AppDelegate.swift in Sources */,
+				539A055D1E97906D000A9091 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DLAC8497MQ;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.etcomm.Calculator;
@@ -274,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DLAC8497MQ;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.etcomm.Calculator;
@@ -301,6 +332,7 @@
 				537B6C4C1E95ED9E0057F0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
