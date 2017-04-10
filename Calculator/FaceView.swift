@@ -86,7 +86,7 @@ class FaceView: UIView
         let cp2 = CGPoint(x: end.x - mouthRect.width / 3, y: start.y + smileOffset)
         
         let path = UIBezierPath()
-        path.move(to: start)
+        path.move(to: start)=】
         path.addCurve(to: end, controlPoint1: cp1, controlPoint2: cp2)
         path.lineWidth = lineWidth
         return path;
