@@ -279,7 +279,7 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="eyesOpen" value="NO"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="scale">
-                                        <real key="value" value="0.90000000000000002"/>
+                                        <real key="value" value="0.59999999999999998"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="mouthCurvature">
                                         <real key="value" value="-0.5"/>
@@ -301,6 +301,9 @@
                             <constraint firstItem="fLk-rV-rxK" firstAttribute="bottom" secondItem="SaU-ku-9kO" secondAttribute="top" id="jFb-Cg-8gQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="fLk-rV-rxK" id="Ngr-My-Jr4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3hl-qs-HXp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
