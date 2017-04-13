@@ -16,6 +16,7 @@
 		537B6C4E1E9630A90057F0F3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537B6C4D1E9630A90057F0F3 /* CalculatorBrain.swift */; };
 		539A055B1E97900C000A9091 /* FaceitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539A055A1E97900C000A9091 /* FaceitViewController.swift */; };
 		539A055D1E97906D000A9091 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539A055C1E97906D000A9091 /* FaceView.swift */; };
+		53FD2A4B1E9F628A00EDACEF /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD2A4A1E9F628A00EDACEF /* EmotionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		537B6C4D1E9630A90057F0F3 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		539A055A1E97900C000A9091 /* FaceitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceitViewController.swift; sourceTree = "<group>"; };
 		539A055C1E97906D000A9091 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		53FD2A4A1E9F628A00EDACEF /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		539A05591E978FF0000A9091 /* Faceit */ = {
 			isa = PBXGroup;
 			children = (
+				53FD2A4A1E9F628A00EDACEF /* EmotionsViewController.swift */,
 				539A055A1E97900C000A9091 /* FaceitViewController.swift */,
 				532527921E9B591100561033 /* FacialExpression.swift */,
 				539A055C1E97906D000A9091 /* FaceView.swift */,
@@ -176,6 +179,7 @@
 				539A055B1E97900C000A9091 /* FaceitViewController.swift in Sources */,
 				537B6C4E1E9630A90057F0F3 /* CalculatorBrain.swift in Sources */,
 				537B6C3E1E95ED9E0057F0F3 /* ViewController.swift in Sources */,
+				53FD2A4B1E9F628A00EDACEF /* EmotionsViewController.swift in Sources */,
 				537B6C3C1E95ED9E0057F0F3 /* AppDelegate.swift in Sources */,
 				539A055D1E97906D000A9091 /* FaceView.swift in Sources */,
 				532527931E9B591100561033 /* FacialExpression.swift in Sources */,
