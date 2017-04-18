@@ -17,6 +17,8 @@
 		537B6C4E1E9630A90057F0F3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537B6C4D1E9630A90057F0F3 /* CalculatorBrain.swift */; };
 		539A055B1E97900C000A9091 /* FaceitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539A055A1E97900C000A9091 /* FaceitViewController.swift */; };
 		539A055D1E97906D000A9091 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539A055C1E97906D000A9091 /* FaceView.swift */; };
+		53CAA08F1EA5B6790053581E /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CAA08E1EA5B6790053581E /* CassiniViewController.swift */; };
+		53D68F0C1EA463C4006A5F07 /* DemoCassiniURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D68F0B1EA463C4006A5F07 /* DemoCassiniURL.swift */; };
 		53FD2A4B1E9F628A00EDACEF /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD2A4A1E9F628A00EDACEF /* EmotionsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		537B6C4D1E9630A90057F0F3 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		539A055A1E97900C000A9091 /* FaceitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceitViewController.swift; sourceTree = "<group>"; };
 		539A055C1E97906D000A9091 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		53CAA08E1EA5B6790053581E /* CassiniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
+		53D68F0B1EA463C4006A5F07 /* DemoCassiniURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCassiniURL.swift; sourceTree = "<group>"; };
 		53FD2A4A1E9F628A00EDACEF /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +54,9 @@
 		5372F8011EA0CAD3003E6707 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
+				53CAA08E1EA5B6790053581E /* CassiniViewController.swift */,
 				5372F8021EA0CB34003E6707 /* ImageViewController.swift */,
+				53D68F0B1EA463C4006A5F07 /* DemoCassiniURL.swift */,
 			);
 			name = Cassini;
 			sourceTree = "<group>";
@@ -190,9 +196,11 @@
 				539A055B1E97900C000A9091 /* FaceitViewController.swift in Sources */,
 				537B6C4E1E9630A90057F0F3 /* CalculatorBrain.swift in Sources */,
 				537B6C3E1E95ED9E0057F0F3 /* ViewController.swift in Sources */,
+				53CAA08F1EA5B6790053581E /* CassiniViewController.swift in Sources */,
 				53FD2A4B1E9F628A00EDACEF /* EmotionsViewController.swift in Sources */,
 				537B6C3C1E95ED9E0057F0F3 /* AppDelegate.swift in Sources */,
 				539A055D1E97906D000A9091 /* FaceView.swift in Sources */,
+				53D68F0C1EA463C4006A5F07 /* DemoCassiniURL.swift in Sources */,
 				5372F8031EA0CB34003E6707 /* ImageViewController.swift in Sources */,
 				532527931E9B591100561033 /* FacialExpression.swift in Sources */,
 			);
