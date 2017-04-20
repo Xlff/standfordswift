@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		532527931E9B591100561033 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532527921E9B591100561033 /* FacialExpression.swift */; };
+		533EDFB71EA8533400D3A973 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533EDFB31EA850F100D3A973 /* Twitter.framework */; };
+		533EDFB81EA8533500D3A973 /* Twitter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 533EDFB31EA850F100D3A973 /* Twitter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5372F8031EA0CB34003E6707 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5372F8021EA0CB34003E6707 /* ImageViewController.swift */; };
 		537B6C3C1E95ED9E0057F0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537B6C3B1E95ED9E0057F0F3 /* AppDelegate.swift */; };
 		537B6C3E1E95ED9E0057F0F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537B6C3D1E95ED9E0057F0F3 /* ViewController.swift */; };
@@ -22,8 +24,23 @@
 		53FD2A4B1E9F628A00EDACEF /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD2A4A1E9F628A00EDACEF /* EmotionsViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		533EDFB91EA8533500D3A973 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				533EDFB81EA8533500D3A973 /* Twitter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		532527921E9B591100561033 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
+		533EDFB31EA850F100D3A973 /* Twitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Twitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5372F8021EA0CB34003E6707 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		537B6C381E95ED9E0057F0F3 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537B6C3B1E95ED9E0057F0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533EDFB71EA8533400D3A973 /* Twitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +82,7 @@
 		537B6C2F1E95ED9E0057F0F3 = {
 			isa = PBXGroup;
 			children = (
+				533EDFB31EA850F100D3A973 /* Twitter.framework */,
 				537B6C3A1E95ED9E0057F0F3 /* Calculator */,
 				537B6C391E95ED9E0057F0F3 /* Products */,
 			);
@@ -130,6 +149,7 @@
 				537B6C341E95ED9E0057F0F3 /* Sources */,
 				537B6C351E95ED9E0057F0F3 /* Frameworks */,
 				537B6C361E95ED9E0057F0F3 /* Resources */,
+				533EDFB91EA8533500D3A973 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
