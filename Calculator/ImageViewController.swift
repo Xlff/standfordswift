@@ -23,7 +23,6 @@ class ImageViewController: UIViewController {
         if let url = imageURL {
             spinner.startAnimating()
             DispatchQueue.global(qos: .userInitiated).async { [weak self] in
-                
                 let urlContent = try? Data(contentsOf: url)
                 if let imageData = urlContent, url == self?.imageURL {
                     DispatchQueue.main.async {
